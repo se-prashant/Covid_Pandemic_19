@@ -39,17 +39,14 @@ class SelfAssesFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                                           savedInstanceState: Bundle?): View? {
 
-            // Inflate the layout for this fragment
             val binding = DataBindingUtil.inflate<FragmentSelfAssesBinding>(
                 inflater, R.layout.fragment_self_asses, container, false)
 
             setQuestion()
              binding.assesment  = this
 
-            // Set the onClickListener for the submitButton
             binding.submitButton.setOnClickListener { view: View ->
                 val checkedId = binding.questionRadioGroup.checkedRadioButtonId
-                // Do nothing if nothing is checked (id == -1)
                 if (-1 != checkedId) {
                     var answerIndex = 4
                     when (checkedId) {
@@ -58,11 +55,8 @@ class SelfAssesFragment : Fragment() {
                         R.id.thirdAnswerRadioButton -> answerIndex = 2
                         R.id.fourthAnswerRadioButton -> answerIndex = 3
                     }
-                    // The first answer in the original question is always the correct one, so if our
-                    // answer matches, we have the correct answer.
                     if (answers[answerIndex] == currentQuestion.answers[4] && flag==true) {
                         questionIndex++
-                      // Advance to the next question
                         if (questionIndex < numQuestions) {
                             currentQuestion = questions[questionIndex]
                             setQuestion()
