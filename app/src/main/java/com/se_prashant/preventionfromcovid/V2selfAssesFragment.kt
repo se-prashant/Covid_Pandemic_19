@@ -44,17 +44,13 @@ class V2selfAssesFragment : Fragment() {
 
         setQuestion()
        binding.assesment2 = this
-        // Set the onClickListener for the submitButton
         binding.submitButton.setOnClickListener { view: View ->
             val checkedId = binding.questionRadioGroup.checkedRadioButtonId
-            // Do nothing if nothing is checked (id == -1)
             if (-1 != checkedId) {
                 var answerIndex = 1
                 when (checkedId) {
                     R.id.firstAnswerRadioButton -> answerIndex = 0
                 }
-                // The first answer in the original question is always the correct one, so if our
-                // answer matches, we have the correct answer.
                 if (answers[answerIndex] == currentQuestion.answers[1] && flag) {
                     questionIndex++
                     // Advance to the next question
