@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="142dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/wear_mask" />
+
+    <TextView
+        android:id="@+id/silde_heading"
+        android:layout_width="219dp"
+        android:layout_height="49dp"
+
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/amethysta"
+        android:text="HEADING"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_below="@+id/silde_heading"
+        android:background="@color/Gray"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/slide_detail"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/caudex"
+        android:padding="35dp"
+        android:text="hiii "
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

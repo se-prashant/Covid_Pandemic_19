@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pandemic-19</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_text">This app provides:\n1. Live updates of covid cases in the world\n2. Total and Statewise Live covid status of India\n3. Self Assesment quizzes\n4. Do\'s and Dont\'s in this pandemic\n5. Emergency Helpline no of all states and UT in India</string>
+    <string name="self_assesment_question">Self Assesment (%1$d/%2$d)</string>
+    <string name="self_assesment_question2">Self Assesment 2.0  (%1$d/%2$d)</string>
+    <string name="share_success_text">I am safe from covid-19.</string>
+    <string name="submit_button">Submit</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="app_name_">Pandemic-19</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="default_notification_channel_id">default</string>
+    <string name="text_confirmed_cases">Confirmed Cases : %s</string>
+    <string name="text_last_updated">Last Updated : %s</string>
+    <string name="default_notification_channel_name">Covid-19 India</string>
+    <string name="Result">Result</string>
+    <string name="Prevention">Prevention</string>
+    <string name="share_yellow_text">I am in Self Isolation.</string>
+    <string name="share_red_text">I am in Self Isolation.</string>
+</resources>
