@@ -2,7 +2,7 @@
 ### [<p><img src="https://github.com/se-prashant/Covid_Pandemic_19/blob/master/Screenshots/download_button.jpg.png">](https://github.com/se-prashant/Covid_Pandemic_19/blob/master/app/Pandemic19.apk?raw=true)
 
 ## About
-  This android app tracks worldwide active, recovered and deaths cases due to coronavirus.This app contains Self Assesment Quiz, prevention steps
+  This android app tracks worldwide active, recovered and deaths cases due to coronavirus.This app contains Self Assessment Quiz, prevention steps
   and Covid Helpline No. of all states in India.
 
 ## Features
